@@ -1,0 +1,4 @@
+fullname,name,surname,acronym,afiliation,has_attended,has_contributed,is_organizer,is_president,contribution_id,contribution_type,email,contribution_title
+Participant P. Surname1,Participant P.,Surname1,Acronym1,Afiliation1,TRUE,TRUE,FALSE,FALSE,I1,Invited,participant@email.something,An example of a very long title that could go on and on and on and keep on going until you are bored to test that the layout is going to accept all titles
+Participant2 P2. Surname2,Participant2 P2.,Surname2,Acronym2,Afiliation2,TRUE,TRUE,FALSE,FALSE,I2,Invited,participant2@email.something ,An example of a title with some special latex setup such as ${Hello}^{World}!$
+Organizer Surname3,Organizer,Surname3,Acronym3,Afiliation3,TRUE,TRUE,FALSE,FALSE,I3,Invited,organizer@email.something ,An example of a short title to test correct positioning

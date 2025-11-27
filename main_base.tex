@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage[a4paper, margin=0mm,landscape]{geometry}
+%\usepackage{eforms}
+\usepackage{background}
+\usepackage{graphics}
+\usepackage{fix-cm}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{maincolor}{HTML}{FF5555}
+
+\backgroundsetup{
+    angle=0,
+    scale=1,
+    opacity=1,
+    contents={
+        \includegraphics[width=\paperwidth,height=\paperheight]{
+            background.png
+            }
+        }
+    }
+
+\begin{document}
+\begin{picture}(0mm,0mm)
+    %\previewOn
+
+    \put(0.5mm, -87.5mm){
+        \fontsize{24}{24}
+        \selectfont
+        \color{maincolor}{
+            \textbf{
+                FullName
+            }
+        }
+    }
+    \put(117.5mm,-171mm){
+        \sigField{Organizer O. Surname3}{55mm}{26mm}
+    }
+\end{picture}
+\end{document}
